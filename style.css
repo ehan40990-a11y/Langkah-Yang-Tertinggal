@@ -1,0 +1,89 @@
+body {
+    background-color: #213448;
+}
+
+h1 {
+    text-transform: uppercase;
+    size: 3rem;
+}
+
+.poster {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 35px;
+    margin-bottom: 80px;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+}
+
+.motivation-img {
+    border: 5px solid whitesmoke;
+    width: 100%;
+}
+
+.cover {
+    text-align: center;
+    color: whitesmoke;
+    text-transform: none;
+    margin-top: 20%;
+    font-family: "Libre Baskerville", serif;
+}
+
+.btn {
+    background-color: #FFA239;
+    color: whitesmoke;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: medium;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0 0 10px #87BAC3, 0 0 20px #D6F4ED;
+}
+
+.btn:hover {
+    box-shadow: 0 0 30px #AAC4F5;
+    color: #213448;
+}
+
+
+.btn-pro {
+    background-color: #FFA239;
+    color: whitesmoke;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 5%;
+    font-size: large;
+    text-align: center;
+    box-shadow: 0 0 10px #87BAC3, 0 0 20px #D6F4ED;
+}
+
+.btn-pro:hover {
+   box-shadow: 0 0 30px #AAC4F5;
+   color: #213448;
+}
+
+
+.prolog {
+    color: whitesmoke;
+    font-family: "Libre Baskerville", serif;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.p-prolog {
+    font-family: "caveat";
+    color: whitesmoke;
+    font-size: 2rem;
+    text-align: justify;
+    margin-left: 25px;
+    margin-right: 25px;
+}
