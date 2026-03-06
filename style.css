@@ -19,7 +19,18 @@ p {
 
 h1 {
     text-transform: uppercase;
-    size: 3rem;
+    margin: auto;
+    size: 36px;
+}
+@media (min-width: 768px) {
+    h1{
+        font-size: 48px;
+    }
+}
+@media (min-width: 1024px) {
+    h1{
+        font-size: 64px;
+    }
 }
 
 .poster {
@@ -103,3 +114,4 @@ h1 {
     margin-right: 25px;
 
 }
+
